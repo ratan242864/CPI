@@ -1,0 +1,200 @@
+body {
+  
+  background-color: #e5e4e2;;
+  color: rgb(23, 23, 23);
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+/* Section spacing */
+section {
+  margin-bottom: 2rem;
+  margin-top:0.5rem;
+} 
+
+/* Main heading */
+h1 {
+  margin: auto;
+  
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 5rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.intro-paragraph {
+  font-size:1.25rem;
+  
+  line-height: 1.8;
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin:auto;
+  text-align:center;
+  font-family: 'Segoe UI', sans-serif;
+
+ 
+
+  
+}
+
+
+/* Subheadings */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  margin-top: 2rem;
+
+  padding-left: 4rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2::before {
+  content: "- ";
+
+  font-size: 2rem;
+  padding-left: 1.5rem;
+  font-size: 2rem;
+  vertical-align: center;
+  padding-right: 0rem;
+}
+
+/* Paragraphs */
+p {
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+  
+
+p,em
+li {
+  
+  
+  line-height:1.8;
+  position:relative;
+  padding-left:6rem;
+  font-size:1.25rem;
+  padding-right:15rem;
+  margin-top:0.1rem;
+  margin-bottom:0rem;
+}
+
+/* List styling */
+ul {
+  padding-left: 8rem;
+  margin-top: 0.6rem;
+  line-height:1.4rem;
+  
+}
+
+li {
+  font-size: 1.30rem;
+  margin-bottom: 0.6rem;
+  line-height:1.8rem;
+  position: relative;
+ font-family: 'Segoe UI', sans-serif;
+
+}
+
+
+
+
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+  .intro-paragraph {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  p, em, li {
+    padding-left: 3rem;
+    padding-right: 5rem;
+  }
+
+  ul {
+    padding-left: 4rem;
+  }
+
+  h2 {
+    padding-left: 2rem;
+  }
+
+  h2::before {
+    padding-left: 1rem;
+  }
+}
+
+/* For screens up to 800px */
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.2rem;
+    margin-top: 3rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  p, em, li {
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  ul {
+    padding-left: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  h2::before {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+/* For screens up to 400px (mobile devices) */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+  }
+
+  p, em, li {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+  }
+
+  h2::before {
+    font-size: 1.2rem;
+    padding-left: 0.2rem;
+  }
+}
