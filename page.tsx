@@ -3,52 +3,54 @@ export default function GraphicDesignPage() {
     <section
       >
       {/* Hero Section */}
-      <h1>CPS</h1>
+      <h1>CPL</h1>
       <p className="intro-paragraph">
-      CPS (Cost Per Sale) is a type of affiliate marketing model where businesses pay commissions only when a sale occurs.
-       That means you’re not paying for clicks or impressions — you're paying for actual results.
-        It's one of the most effective ways to scale eCommerce, SaaS products, digital courses, and more, while keeping your return on investment high and your acquisition costs low.
+       In today’s fast-paced digital world, leads are the fuel of every successful business — but not just any leads. At Mini Digital Media, we specialize in Cost Per Lead (CPL) marketing that focuses on quality over quantity.
+        We build high-converting funnels and targeted campaigns to attract people who are genuinely interested in your products or services.
+       You only pay for actual leads — verified contacts who have shown intent and are ready to hear from your brand.
+
 
 
       </p>
 
       
       {/* Why Choose Us Section */}
-      <h2>Why Choose Us For CPS campaigns? </h2>
+      <h2>Why Choose Us for Lead Generation? </h2>
       <p>
-       We design CPS campaigns that are tailored to your industry, audience, and sales goals.
-        With access to a wide network of affiliates, influencers, and niche publishers, we ensure your products are promoted by partners who know how to convert.
+       At Mini Digital Media, we understand that not all leads are equal.
+        That’s why we focus on generating leads that match your target audience, align with your service, and show a high intent to purchase or engage.
+         From audience research to creative execution, every part of our CPL strategy is tailored to help you get results.
       </p>
 
 
      {/* Industries We Serve */}
       <h2> Industries We Serve </h2>
       <ul>
-        <li>eCommerce brands.</li>
-        <li>Subscription-based platforms.</li>
-        <li>Online course providers.</li>
-        <li>Finance and digital services.</li>
+        <li>EdTech platforms.</li>
+        <li>Healthcare clinics.</li>
+        <li>Real estate agencies.</li>
+        <li>Digital product providers.</li>
       </ul>
 
       {/* Our Process Section */}
       <h2>Our Process </h2>
       <p>
-        We begin by understanding your product, target audience, and goals. Then, we create a custom CPS campaign with the right messaging, creative assets, and affiliate matchups.
-         Once launched, we manage everything — from partner communication to performance reports — so you can focus on fulfilling orders and growing your business.
-      Our team actively optimizes campaigns for higher conversion rates and better quality traffic, ensuring every affiliate partnership adds measurable value.
+        We begin with a discovery phase to understand your ideal customer profile and business goals.
+         From there, we design a custom lead generation funnel with compelling offers, strong messaging, and optimized touchpoints.
+        Once live, we monitor performance, filter unqualified leads, and adjust strategies to keep your pipeline filled with real prospects. 
 
 
       </p>
 
       {/* Get In Touch Section */}
-      <section className="get-in-touch" style={{ textAlign: 'left', marginTop: '3rem' }}>
-        <h2>Ready to Launch Your CPS Campaign?</h2>
+      <div className="get-in-touch" style={{ textAlign: 'left', marginTop: '3rem' }}>
+        <h2>Ready to Start Getting Qualified Leads?</h2>
         <p>
-         Get in touch with us today to start your performance-driven journey. Whether you're starting from scratch or want to improve your current affiliate program,
-          we’re ready to help you grow — efficiently and effectively.
+         Contact us today to launch a CPL campaign tailored to your business — and start seeing results that matter.
+         
         </p>
-      </section>
-      <a href="/pages/cpl" className="contact-link">Contact Us</a>
+      </div>
+      <a href="/pages/monetization" className="contact-link">Contact Us</a>
     </section>
-  );
+  );
 }
